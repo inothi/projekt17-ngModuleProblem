@@ -1,2 +1,2 @@
-<input type="text" [(ngModule)]="zipCode">
-<h2>Zip Code: {{ zipCode }}</h2>
+<input [(ngModel)]="zipCode" type="text">
+<h2>Kod pocztowy: {{ zipCode | zipcode: zipCode }}</h2>
